@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <!--CSS IMPLEMENT-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="hover.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--NAVBAR SECTİON, THESE ARE THE TOP OF THE WEBPAGE. LOGO AND MENU.-->
+    <div id="navbar" class="navbar">
+        <img  class="Wlogo" src="assets/images/logo.svg" alt="logo">
+        <span id="open-menu" onclick="openNav()"><img src="/assets/images/icon-menu.svg" alt=""></span>
+            <div id="menu-div" class="menu-div">
+                <ol class="menu" id="menu">
+                    <li><a class="list-item" href="#">Home</a></li>
+                    <li><a class="list-item" href="#">New</a></li>
+                    <li><a class="list-item" href="#">Popular</a></li>
+                    <li><a class="list-item" href="#">Trending</a></li>
+                    <li><a class="list-item" href="#">Categories</a></li>
+                </ol>
+            </div>
+    </div>
+    <div id="side-menu" class="side-menu">
+        <span id="close-menu" onclick="closeNav()"><img class="close-img" src="/assets/images/icon-menu-close.svg"></span>
+    </div>
+    <!--CONTENTS. HIGHLIGTED IMAGE, READ-MORE SECTION AND NEWS SECTION ARE THERE.-->
+    <div class="contents">
+        <div class="left-side">
+        <div class="highlights">
+            
+        </div>
+
+        <div class="read-more">
+
+            <div class="rm-titlebox">
+                <h1 class="rm-title">The Bright Future of Web 3.0?</h1>
+            </div>
+
+            <div class="rm-contentbox">
+                <div class="rm-cont">
+                <span class="rm-content">
+                    We dive into the next evolution of the web
+                    that claims to put the power of the platforms back
+                    into the hands of the people. But is it really fulfilling
+                    its promise?
+                </span>
+            </div>
+            <div class="rm-btn">
+                <button class="rm-button">R E A D &nbsp &nbsp M O R E</button>
+            </div>
+            </div>
+
+        </div>
+    </div>
+        <div class="right-side">
+        <div class="new">
+            <div class="new-titlebox">
+                <h1 class="new-title">New</h1>
+            </div>
+            <div class="news">
+                <a href=""><h2 class="new-header">Hydrogen VS Electric Cars</h2></a>
+                <span class="new-content">
+                    Will hydrogen-fueled casr ever catch up 
+                    to EVs?
+                </span>
+            </div>
+            <hr>
+            <div class="news">
+                <a href="#"><h2 class="new-header">The Downsides of AI Aristry</h2></a>
+                <span class="new-content">
+                    What are the possible adverse effects 
+                    of on-demand AI image generation?
+                </span>
+            </div>
+            <hr>
+            <div class="news">
+                <a href="#"><h2 class="new-header">Is VC Funding Drying up?</h2></a>
+                <span class="new-content">
+                    Private funding by VC firms is down 50% YOY.
+                    We take a look at what that means.
+                </span>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <!--BOTTOM OF THE WEB PAGE.-->
+    <div class="top-list">
+
+        <div class="top 1">
+            <div class="top-imgbox">
+                <img class="top-img" src="/assets/images/image-retro-pcs.jpg" alt="top-1">
+            </div>
+            <div class="top-content">
+                <h2 class="top-h2">01</h2>
+                <a href="#"><h3 class="top-h3">Reviving Retro PCs</h3></a>
+                <span class="top-detail">
+                    What happens when old PCs are given
+                     modern upgrades?
+                </span>
+            </div>
+
+        </div>
+
+        <div class="top 2">
+            <div class="top-imgbox">
+                <img class="top-img" src="/assets/images/image-top-laptops.jpg" alt="top-2">
+            </div>
+            <div class="top-content">
+                <h2 class="top-h2">02</h2>
+                <a href="#"><h3 class="top-h3">Top 10 Laptops of 2022</h3></a>
+                <span class="top-detail">
+                    Our best picks for various needs and budgets.
+                </span>
+            </div>
+        </div>
+
+        <div class="top 3">
+            <div class="top-imgbox">
+                <img class="top-img" src="/assets/images/image-gaming-growth.jpg" alt="top-3">
+            </div>
+            <div class="top-content">
+                <h2 class="top-h2">03</h2>
+                <a href="#"><h3 class="top-h3">The Growth of Gaming</h3></a>
+                <span class="top-detail">
+                    How the pandemic has sparked fresh oppurtunities.
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Script-->
+    <script src="index.js"></script>
+</body>
+</html>
